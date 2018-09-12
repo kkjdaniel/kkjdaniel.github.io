@@ -1,0 +1,43 @@
+body {
+	padding: 0;
+	margin: 0;
+	border-top: 3px solid #dd2020;
+	font-family: 'PT Serif', serif;
+	-webkit-font-smoothing: antialiased;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #0d0c0c;
+}
+h2,
+h5,
+h3 {
+	color: #a5a2a2;
+}
+h1,
+a {
+	color: #dd2020;
+}
+li {
+	color: #a5a2a2;
+	list-style-type: none;
+	position: relative;
+	padding-left: 15px;
+}
+li:before {
+	content: "\25BA \0020";
+	font-size: 12px;
+	position: absolute;
+	top: 4px;
+	left: -10px;
+}
+#wrapper {
+	height: 620px;
+	width: 620px;
+}
+header > h1 {
+	margin-bottom: 0;
+}
+header > h2 {
+	margin-top: 5px;
+}
