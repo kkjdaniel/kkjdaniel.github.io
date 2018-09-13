@@ -9,6 +9,14 @@ body {
 	justify-content: center;
 	color: #0d0c0c;
 }
+@media only screen and (max-width: 620px) {
+    body {
+        padding: 10px;
+	}
+	header > h1 {
+		margin-top: 5px;
+	}
+}
 h2,
 h5,
 h3 {
