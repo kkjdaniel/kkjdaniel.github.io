@@ -1,0 +1,57 @@
+html,
+body {
+  height: 100%;
+  overflow: hidden;
+}
+a {
+  color: inherit;
+}
+main {
+  color: #fff;
+  -webkit-font-smoothing: antialiased !important;
+  text-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.005);
+  font-family: "Work Sans", sans-serif;
+
+  height: 100%;
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  background: #cb356b;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #bd3f32, #cb356b);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #bd3f32,
+    #cb356b
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+main h1 {
+  font-size: 3em;
+}
+main h2 {
+  margin-top: 0;
+  font-weight: normal;
+  opacity: 0.8;
+  text-align: center;
+}
+main ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+}
+main ul li {
+  font-size: 2em;
+  cursor: pointer;
+  opacity: 0.5;
+  margin: 10px;
+  transition: opacity 0.5s;
+}
+main ul li:hover {
+  opacity: 1;
+}
