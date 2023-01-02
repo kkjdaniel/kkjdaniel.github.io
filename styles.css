@@ -7,7 +7,7 @@ a {
   color: inherit;
 }
 main {
-  color: #fff;
+  color: rgb(37, 37, 37);
   -webkit-font-smoothing: antialiased !important;
   text-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.005);
   font-family: "Work Sans", sans-serif;
@@ -19,15 +19,11 @@ main {
   justify-content: center;
   align-items: center;
 
-  background: #cb356b;
-  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #bd3f32, #cb356b);
-  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to right,
-    #bd3f32,
-    #cb356b
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(to right bottom, #ffffff, #fcfafc, #f9f6f8, #f8f1f3, #f6ecec);
+}
+main .profile {
+  height: 240px;
+  width: 240px;
 }
 main h1 {
   font-size: 3em;
@@ -37,13 +33,26 @@ main h2 {
   font-weight: normal;
   opacity: 0.8;
   text-align: center;
+  width: 300px;
+}
+main p {
+  box-sizing: border-box;
+  border: 1px solid rgb(221, 221, 221);
+  border-radius: 3px;
+  padding: 20px;
+  width: 500px;
 }
 main ul {
+  box-sizing: border-box;
+  width: 500px;
+  border: 1px solid rgb(221, 221, 221);
+  border-radius: 3px;
   margin: 0;
-  padding: 0;
+  padding: 20px;
   list-style: none;
   display: flex;
   flex-direction: row;
+  justify-content: center;
 }
 main ul li {
   font-size: 2em;
@@ -54,4 +63,15 @@ main ul li {
 }
 main ul li:hover {
   opacity: 1;
+}
+@media only screen and (max-width: 600px) {
+  main p {
+    width: 95%;
+  }
+  main ul {
+    width: 95%;
+  }
+  main h2 {
+    width: 80%;
+  }
 }
