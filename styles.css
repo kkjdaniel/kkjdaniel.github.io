@@ -21,21 +21,31 @@ main {
 
   background: linear-gradient(to right bottom, #ffffff, #fcfafc, #f9f6f8, #f8f1f3, #f6ecec);
 }
-main .profile {
-  height: 240px;
-  width: 240px;
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  border-radius: 10px;
+  background-color: #ffffff;
 }
-main h1 {
+.profile {
+  height: 200px;
+  width: 200px;
+}
+h1 {
   font-size: 3em;
+  text-align: center;
 }
-main h2 {
+h2 {
   margin-top: 0;
   font-weight: normal;
   opacity: 0.8;
   text-align: center;
   width: 300px;
 }
-main ul {
+ul {
   margin: 0;
   padding: 5px;
   list-style: none;
@@ -43,25 +53,30 @@ main ul {
   flex-direction: column;
   justify-content: center;
 }
-main ul li {
+ul li {
   text-align: center;
-  font-size: 2em;
+  font-size: 1.4em;
   cursor: pointer;
   opacity: 0.5;
   margin: 10px;
   transition: opacity 0.5s;
 }
-main ul li:hover {
+a {
+  text-decoration: none;
+}
+ul li:hover {
   opacity: 1;
 }
+.mbcs {
+  margin-top: 30px;
+  height: 130px;
+  width: 130px;
+}
 @media only screen and (max-width: 600px) {
-  main p {
+  ul {
     width: 95%;
   }
-  main ul {
-    width: 95%;
-  }
-  main h2 {
+  h2 {
     width: 80%;
   }
 }
