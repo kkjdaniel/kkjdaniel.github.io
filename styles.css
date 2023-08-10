@@ -35,26 +35,16 @@ main h2 {
   text-align: center;
   width: 300px;
 }
-main p {
-  box-sizing: border-box;
-  border: 1px solid rgb(221, 221, 221);
-  border-radius: 3px;
-  padding: 20px;
-  width: 500px;
-}
 main ul {
-  box-sizing: border-box;
-  width: 500px;
-  border: 1px solid rgb(221, 221, 221);
-  border-radius: 3px;
   margin: 0;
-  padding: 20px;
+  padding: 5px;
   list-style: none;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
 }
 main ul li {
+  text-align: center;
   font-size: 2em;
   cursor: pointer;
   opacity: 0.5;
