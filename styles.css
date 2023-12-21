@@ -18,25 +18,32 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
-  background: linear-gradient(to right bottom, #ffffff, #fcfafc, #f9f6f8, #f8f1f3, #f6ecec);
 }
 .container {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
   padding: 40px;
   border-radius: 10px;
   background-color: #ffffff;
+  border: 1px solid #eaeaea;
+  max-width: 600px;
+}
+.text {
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
 }
 .profile {
-  height: 200px;
+  border: 6px solid #eaeaea;
+  border-radius: 50%;
+  height: auto;
   width: 200px;
 }
 h1 {
-  font-size: 3em;
-  text-align: center;
+  font-size: 1.8em;
+  margin: 0;
 }
 h2 {
   margin-top: 0;
@@ -45,20 +52,26 @@ h2 {
   text-align: center;
   width: 300px;
 }
+p {
+  font-size: 0.9em;
+}
+.divider {
+  font-size: 1.2em;
+  margin: 0 10px;
+  opacity: 0.2;
+}
 ul {
   margin: 0;
-  padding: 5px;
+  padding: 0px;
   list-style: none;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  flex-direction: row;
 }
 ul li {
   text-align: center;
-  font-size: 1.4em;
+  font-size: 1.2em;
   cursor: pointer;
   opacity: 0.5;
-  margin: 10px;
   transition: opacity 0.5s;
 }
 a {
@@ -72,11 +85,21 @@ ul li:hover {
   height: 130px;
   width: 130px;
 }
-@media only screen and (max-width: 600px) {
-  ul {
-    width: 95%;
+@media only screen and (max-width: 700px) {
+  .container {
+    padding: 20px;
+    flex-direction: column;
+    margin: 40px;
   }
-  h2 {
-    width: 80%;
+  .text {
+    text-align: center;
+    margin-left: 0;
+    margin-top: 20px;
+  }
+  p {
+    text-align: left;
+  }
+  ul {
+    justify-content: center;
   }
 }
