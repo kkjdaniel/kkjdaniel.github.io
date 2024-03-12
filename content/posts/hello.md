@@ -6,6 +6,6 @@ tags = [ "Random", "News" ]
 categories = [ "Random" ]
 +++
 
-This site has always been more or less a glorified landing page, without a greater purpose than to redirect people to my professional platforms. However, things are set to change with this nifty new, [Hugo](https://gohugo.io/) powered blog.
+In a bid to turn this glorified landing page, which has largely served no greater purpose than to redirect people to my professional platforms, I've put up this nifty new [Hugo](https://gohugo.io/) powered blog.
 
-Over the coming months, I will be aiming to fill the site with an irregular schedule of technical content, that hopefully serves for some as interesting or helpful reading. For now though this post serves as nothing more than an introduction to make the site look frankly less barren.
+Which over the coming months, I intend to fill with an irregular and erratic schedule of engineering realated content. Hopefully someone out there finds it to be interesting or helpful reading. Stay tuned!
