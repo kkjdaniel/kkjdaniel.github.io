@@ -14,13 +14,23 @@ minify:
   minifyOutput: true
 
 params:
-  env: production # to enable google analytics, opengraph, twitter-cards and schema.
+  env: production
   title: Karl Daniel
   description: "Full-Stack Software Engineer, UK based. Specialising in web and mobile development."
-  keywords: [Blog, Portfolio, PaperMod]
+  keywords:
+    [
+      Blog,
+      Portfolio,
+      Contractor,
+      Karl Daniel,
+      React Native,
+      React,
+      JavaScript,
+      TypeScript,
+    ]
   author: Karl Daniel
   DateFormat: "January 2, 2006"
-  defaultTheme: auto # dark, light
+  defaultTheme: dark
   disableThemeToggle: false
 
   ShowReadingTime: true
@@ -28,7 +38,7 @@ params:
   ShowPostNavLinks: true
   ShowBreadCrumbs: true
   ShowCodeCopyButtons: false
-  ShowWordCount: true
+  ShowWordCount: false
   ShowRssButtonInSectionTermList: true
   UseHugoToc: true
   disableSpecial1stPost: false
@@ -53,31 +63,13 @@ params:
     icon: /apple-touch-icon.png
     iconHeight: 35
 
-  # profile-mode
-  profileMode:
-    enabled: false
-    # needs to be explicitly set
-    title: "\U0001F44B Hey, I'm Karl"
-    subtitle:
-      "I'm a UK based, contract full-stack software engineer, specialsing in web and mobile development.
-      I've worked for some of the UK's most recognisable businesses,
-      including BAE Systems, Asda, PokerStars and Sky."
-    imageUrl: "/profile.jpeg"
-    imageWidth: 120
-    imageHeight: 120
-    imageTitle: my image
-    buttons:
-      - name: Posts
-        url: posts
-      - name: Tags
-        url: tags
-
-        # home-info mode
+  # home-info mode
   homeInfoParams:
     Title: "Hey, I'm Karl \U0001F44B"
-    Content: I'm a UK based, contract full-stack software engineer.
-      Having worked for some of the UK's most recognisable businesses,
-      including BAE Systems, Asda, PokerStars and Sky.
+    Content:
+      I'm a UK based, contract full-stack software engineer, specialsing in web and mobile development.
+      I've worked for some of the UK's most recognisable businesses,
+      including BAE Systems, Asda, PokerStars and Sky. If you're interested in working with me, feel free to reach out.
 
   socialIcons:
     - name: linkedin
