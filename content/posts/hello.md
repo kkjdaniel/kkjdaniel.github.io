@@ -2,6 +2,8 @@
 title = '$ init blog'
 date = 2024-03-12T02:29:34Z
 draft = false
+tags = [ "Random", "News" ]
+categories = [ "Random" ]
 +++
 
 This site has always been more or less a glorified landing page, without a greater purpose than to redirect people to my professional platforms. However, things are set to change with this nifty new, [Hugo](https://gohugo.io/) powered blog.
