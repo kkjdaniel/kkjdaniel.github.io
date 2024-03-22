@@ -64,7 +64,7 @@ params:
     safari_pinned_tab: "<link / abs url>"
 
   label:
-    text: "⚙️ Karl Daniel"
+    text: "Karl Daniel"
     icon: /apple-touch-icon.png
     iconHeight: 35
 
