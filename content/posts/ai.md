@@ -12,7 +12,7 @@ Of course it might seem prudent to defend the notion that engineers are essentia
 
 The first point to address is we appear to be reaching a form of "peak AI". Following a recent video from [Computerphile](https://www.youtube.com/watch?v=dDUC-LqVrPU), it features a [study](https://arxiv.org/abs/2404.04125) highlighting how AI models appear to be plateauing in performance even as the dataset grows.
 
-![AI Performance](static/ai-model.png)
+![AI Performance](/ai-model.png)
 
 Ultimately it boils down to the fact that companies are running out of the underlying data necessary to form the datasets for training these models. At a certain point it becomes infeasible to train a model for every specific scenario the AI may encounter, which means the AI has to bridge this gap in its knowledge between two data-points. While this may work for creative writing where there is no strict right or wrong - programming doesn't allow for such leniency.
 
