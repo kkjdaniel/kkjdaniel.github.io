@@ -20,7 +20,7 @@ To any given programming problem there are realistically only a small number of 
 
 Secondly, as current benchmarks on [SWE-Bench](https://www.swebench.com/) demonstrate, AI can barely handle more than 10% of real-world GitHub issues independently. As a replacement for engineers, this is all but useless in a real-world application.
 
-Traditional thinking has been if you simply increase the dataset eventually you will reach some form of "general intelligence" that can essentially generate the answer to any problem. However the data for the niche and contextual problems engineers solve simply do not exist and even if the code itself did, classifying that in a way that would allow it to be used by an LLM is an unrealistic undertaking.
+Traditional thinking has been that if you simply increase the dataset eventually you will reach some form of "general intelligence" that can essentially generate the answer to any problem. However the data for the niche and contextual problems engineers solve simply do not exist and even if the code itself did, classifying that in a way that would allow it to be used by an LLM is an unrealistic undertaking.
 
 This essentially leaves generative AI's ability to fully replace engineers almost dead in the water. Who would replace a fully capable engineer with an AI that can barely complete 10% of problems it encounters?
 
