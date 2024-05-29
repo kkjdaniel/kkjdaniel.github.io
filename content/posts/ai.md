@@ -24,4 +24,4 @@ Traditional thinking has been that if you simply increase the dataset eventually
 
 This essentially leaves generative AI's ability to fully replace engineers almost dead in the water. Who would replace a fully capable engineer with an AI that can barely complete 10% of problems it encounters?
 
-Much in the same way the development of the auto-pilot didn't replace the need for pilots. AI isn't a replacement for engineers. Even where AI can be used to augment engineers, it still requires the skill of the engineer to apply that AI effectively - prompting it and assessing the output are both skills in and of themselves. No doubt AI will be used more as part of engineering but finding where to leverage the benefits will simply become another skill of engineers.
+Much in the same way the development of the auto-pilot didn't replace the need for pilots. AI isn't a replacement for engineers. Even where AI can be used to augment engineers, it still requires the skill of the engineer to leverage it effectively. It's important to remind ourselves that prompting an AI and being able to assess its output is a skill of the engineer themselves.
