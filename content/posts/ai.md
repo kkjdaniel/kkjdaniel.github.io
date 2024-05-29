@@ -16,7 +16,7 @@ The first point to address is we appear to be reaching a form of "peak AI", at l
 
 Ultimately it boils down to the fact that companies are running out of the underlying data necessary to form the datasets for training these models. At a certain point it becomes infeasible to train a model for every specific scenario the AI may encounter, which means the generative AI has to bridge this gap between two data-points. While this may work for creative writing where there is no strict right or wrong - programming doesn't allow for such leniency.
 
-To any given programming problem there are realistically only a small number of solutions, sort of like how there are only a few syntactically correct ways to write a loop in any particular language. This means the AI model is left with a very limited amount of data with which to train itself. The net result being, the more complex, contextualised and niche a problem becomes the worse the AI solution as it moves further and further from the data-points it has in its model.
+To any given programming problem there are realistically only a small number of solutions, sort of like how there are only a few syntactically correct ways to write a loop in any particular language. This means the AI model is left with a very limited amount of data with which to train itself. The net result being, the more complex, contextualised and niche a problem becomes the worse the AI solution as it moves further and further from the data-points it has in the model.
 
 Secondly, as current benchmarks on [SWE-Bench](https://www.swebench.com/) demonstrate, AI can barely handle more than 10% of real-world GitHub issues independently. As a replacement for engineers, this is all but useless in a real-world application.
 
@@ -24,4 +24,4 @@ Traditional thinking has been that if you simply increase the dataset eventually
 
 This essentially leaves generative AI's ability to fully replace engineers almost dead in the water. Who would replace a fully capable engineer with an AI that can barely complete 10% of problems it encounters?
 
-Much in the same way the development of the auto-pilot didn't replace the need for pilots. AI isn't a replacement for engineers. Even where AI can be used to augment engineers, it still requires the skill of the engineer to leverage it effectively. It's important to remind ourselves that prompting an AI and being able to assess its output is a skill of the engineer themselves.
+Much in the same way the development of the auto-pilot didn't replace the need for pilots. AI isn't a replacement for engineers. Even where AI can be used to augment engineers, it still requires the skill of the engineer to leverage it effectively. It's important to remind ourselves that prompting an AI and being able to assess its output is a capability of the engineer themselves.
