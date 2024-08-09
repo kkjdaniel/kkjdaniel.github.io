@@ -1,6 +1,6 @@
 +++
 title = "Why Engineers Are Still the Ultimate Problem-Solvers"
-date = 2024-08-09T11:30:00Z
+date = 2024-08-08T11:30:00Z
 draft = false
 tags = [ "AI", "Technology" ]
 categories = [ "Random" ]
