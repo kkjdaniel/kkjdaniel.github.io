@@ -71,9 +71,9 @@ params:
   # home-info mode
   homeInfoParams:
     Title: "Hey, I'm Karl \U0001F44B"
-    Content: I'm a UK based, software engineer, primarily working in the mobile & web space. 
+    Content: "I'm a UK based, software engineer, primarily working in the mobile & web space. 
     This blog serves as a sort of dumping ground for my thoughts, opinions and experiences. I hope you find something useful here. 
-    Feel free to reach out to me on any of the platforms below.
+    Feel free to reach out to me on any of the platforms below."
 
   socialIcons:
     - name: linkedin
