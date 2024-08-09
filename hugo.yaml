@@ -21,7 +21,7 @@ taxonomies:
 params:
   env: production
   title: Karl Daniel
-  description: "Full-Stack Software Engineer, UK based. Specialising in web and mobile development."
+  description: "Another SWE with a few opinions."
   keywords:
     [
       Blog,
@@ -71,10 +71,9 @@ params:
   # home-info mode
   homeInfoParams:
     Title: "Hey, I'm Karl \U0001F44B"
-    Content:
-      I'm a UK based, contract full-stack software engineer, specialsing in web and mobile development.
-      I've worked for some of the UK's most recognisable companies,
-      including BAE Systems, Asda, PokerStars and Sky. If you're interested in working with me, feel free to reach out.
+    Content: I'm a UK based, software engineer, primarily working in the mobile & web space. 
+    This blog serves as a sort of dumping ground for my thoughts, opinions and experiences. I hope you find something useful here. 
+    Feel free to reach out to me on any of the platforms below.
 
   socialIcons:
     - name: linkedin
